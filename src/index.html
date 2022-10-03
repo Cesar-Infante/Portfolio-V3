@@ -131,7 +131,7 @@
                   For this project we decided to partner up with a local business owner in order to
                   build a website for her company, Pop Umai.
                 </p>
-                <p> 
+                <p>
                   As a team we had multiple meetings
                   with the client to take various ideas and desires for the website and come up with a clean, cohesive
                   design.</p>
@@ -255,27 +255,26 @@
     <section class="inquiries">
       <h2 class="section-title">Questions or Career Opportunities?</h2>
       <div class="container">
-          <p id="sub-title">Contact me!</p>
-          <p id="sub-title">Email: cesar261110@gmail.com</p>
-          <form id="form">
-              <select name="question" class="questions-input" id="option">
-                  <option value="Career Opportunities">Career Opportunities</option>
-                  <option value="General Questions">General Questions</option>
-              </select>
+        <p id="sub-title">Contact me!</p>
+        <p id="sub-title">Email: cesar261110@gmail.com</p>
+        <form id="form">
+          <select name="question" class="questions-input" id="option">
+            <option value="Career Opportunities">Career Opportunities</option>
+            <option value="General Questions">General Questions</option>
+          </select>
 
-              <input class="questions-input" type="text" name="from_name" placeholder="Name" id="from_name">
+          <input class="questions-input" type="text" name="from_name" placeholder="Name" id="from_name">
 
-              <input class="questions-input" type="email" name="to_name" id="contactEmail" placeholder="Email" />
+          <input class="questions-input" type="email" name="to_name" id="contactEmail" placeholder="Email" />
 
-              <textarea class="questions-input" type="text" name="message" id="message"
-                  placeholder="Message"></textarea>
+          <textarea class="questions-input" type="text" name="message" id="message" placeholder="Message"></textarea>
 
-              <button type="submit" class="event-btn" id="contactSend" value="send">
-                  <p id="submitBtn">SEND</p>
-              </button>
-          </form>
+          <button type="submit" class="event-btn" id="contactSend" value="send">
+            <p id="submitBtn">SEND</p>
+          </button>
+        </form>
       </div>
-  </section>
+    </section>
   </section>
   <!-- /END Contact Section -->
 
@@ -301,12 +300,17 @@
     </div>
   </footer>
   <!-- /END Footer Section -->
+  <!-- emailjs -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <!-- Sweet Alert -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <!-- Bootstrap cdn -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
     integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
     crossorigin="anonymous"></script>
   <!-- javascript -->
-  <script defer type="module" src="index.js"></script>
+  <script type="module" src="index.js"></script>
+  <script src="./data/email.js"></script>
 </body>
 
 </html>
