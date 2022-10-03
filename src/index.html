@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+  <title>Cesar Infante | Portfolio</title>
+
+  <meta name="keywords" content="cesar-infante, Cesar Infante, JavaScript" />
+
+  <meta name="description" content="Cesar Infante | Software Engineer" />
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- style.scss -->
+  <link rel="stylesheet" href="styles.scss" />
+  <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+  <div id="top"></div>
+  <nav class="navbar navbar-expand-md py-4 navbar-dark bg-transparent shadow-md">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-1 fw-bold" href="."><span class="text-color-main">Cesar Infante</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link mx-4 fs-1 fw-bold" href="https://github.com/Cesar-Infante" target="_blank"
+              Github>Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-4 fs-1 fw-bold" href="https://www.linkedin.com/in/cesar-infante-a56557222/"
+              target="_blank" linkedin>Linkedin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-4 fs-1 fw-bold" href="#contact" Contact Me>Contact Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-4 fs-1 fw-bold" href="#myProjects" Projects>Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-4 fs-1 fw-bold" href="assets/Resume - Cesar Infante.pdf" target="_blank"
+              Resume>Resume</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- **** Hero Section **** -->
+  <section id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title load-hidden text-white">
+        Hi, my name is <span class="text-color-main">Cesar Infante</span>
+        <br />
+        <span id="typed" class="text-white"></span>
+      </h1>
+      <p class="hero-cta load-hidden">
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
+      </p>
+    </div>
+  </section>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title load-hidden">About me</h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image load-hidden">
+            <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px"
+              src="assets/my-profile.jpg" alt="Profile Image" style="border-radius: 50% !important;" />
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info load-hidden">
+            <p class="about-wrapper__info-text fs-2">
+              Coming from a background in warehouse leadership, teaching me discipline, achieving deadlines, and
+              constant growth.
+            </p>
+            <p class="about-wrapper__info-text fs-2">
+              My main approach is the 5 P's, "Proper Preparation Prevents Poor Performance". This approach ensures I put
+              in the time to learn and be prepared and not surprised.
+            </p>
+            <span class="d-flex mt-3">
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
+                href="assets/Resume - Cesar Infante.pdf">
+                View Resume
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /END About Section -->
+
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title">Main Projects</h2>
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Pop Umai</h3>
+              <div>
+                <p class="mb-4">
+                  For this project we decided to partner up with a local business owner in order to
+                  build a website for her company, Pop Umai.
+                </p>
+                <p> 
+                  As a team we had multiple meetings
+                  with the client to take various ideas and desires for the website and come up with a clean, cohesive
+                  design.</p>
+                <p>
+                  The purpose of this project was to collaboratively build a real-world, full-stack web application
+                  that demonstrates everything we have learned over the last several months in our bootcamp.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://pop-umai.herokuapp.com/">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/PreDevz/POP-Umai">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://pop-umai.herokuapp.com/" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/pop-umai.png"
+                    style="border-radius: 10px !important;" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Platello</h3>
+              <div>
+                <p class="mb-4">
+                  Platello was a group project we collaboratively built out that takes in
+                  user input through a modal and provides 3 randomized foods and drinks.
+                </p>
+                <p>
+                  Being apart of the team
+                  taught me a lot, during this project we encountered various bugs and issues but it only
+                  furthered our knowledge on how to approach these situations.
+                </p>
+                <p>
+                  Throughout the two weeks
+                  my responsibility was building out the modals and storing users input into localStorage
+                  and the outcome still amazes me!
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://predevz.github.io/Platello/">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/PreDevz/Platello">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="#!" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/Platello.png"
+                    style="border-radius: 10px !important;" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+        <!-- Notice: each .row is a project -->
+        <!-- <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Project Title 2</h3>
+              <div>
+                <p class="mb-4">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Excepturi neque, ipsa animi maiores repellendus distinctio
+                  aperiam earum dolor voluptatum consequatur blanditiis
+                  inventore debitis fuga numquam voluptate ex architecto
+                  itaque molestiae.
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main" href="#!">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="#!" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/project.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div> -->
+        <!-- /END Project -->
+      </div>
+    </div>
+  </section>
+  <!-- /END Projects Section -->
+
+  <!-- Multiple Projects Section -->
+  <!-- /Multiple Projects Section -->
+
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <section class="inquiries">
+      <h2 class="section-title">Questions or Career Opportunities?</h2>
+      <div class="container">
+          <p id="sub-title">Contact me!</p>
+          <p id="sub-title">Email: cesar261110@gmail.com</p>
+          <form id="form">
+              <select name="question" class="questions-input" id="option">
+                  <option value="Career Opportunities">Career Opportunities</option>
+                  <option value="General Questions">General Questions</option>
+              </select>
+
+              <input class="questions-input" type="text" name="from_name" placeholder="Name" id="from_name">
+
+              <input class="questions-input" type="email" name="to_name" id="contactEmail" placeholder="Email" />
+
+              <textarea class="questions-input" type="text" name="message" id="message"
+                  placeholder="Message"></textarea>
+
+              <button type="submit" class="event-btn" id="contactSend" value="send">
+                  <p id="submitBtn">SEND</p>
+              </button>
+          </form>
+      </div>
+  </section>
+  </section>
+  <!-- /END Contact Section -->
+
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom navbar-dark bg-transparent">
+    <div class="container">
+      <a rel="noreferrer" href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a rel="noreferrer" href="#!" target="_blank">
+          <i class="fa fa-twitter fa-inverse"></i>
+        </a>
+        <a rel="noreferrer" href="#!" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a rel="noreferrer" href="#!" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
+      </div>
+
+      <hr />
+    </div>
+  </footer>
+  <!-- /END Footer Section -->
+  <!-- Bootstrap cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+  <!-- javascript -->
+  <script defer type="module" src="index.js"></script>
+</body>
+
+</html>
