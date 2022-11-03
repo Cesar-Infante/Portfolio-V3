@@ -6,6 +6,9 @@
   
   Feel free to click on my projects link and contact me link they will both bring you to the corresponding section. This portfolio is also adjusted for various screen sizes and devices! Very important as most applications are viewed on a mobile device before on a desktop.
 
+<img alt="Profile Image" src="./src/assets/landing-page.png" />
+<img alt="Profile Image" src="./src/assets/client-exp.png" />
+
 ## Table of Contents
 * [Installation](#installation)
 * [Technologies](#technologies)
