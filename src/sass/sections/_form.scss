@@ -72,6 +72,8 @@
 
 #submitBtn {
     padding: 10px;
+    margin: 3px;
+    justify-content: center;
 }
 
 input {
@@ -94,6 +96,20 @@ select {
     text-align: center;
     gap: 5px;
     margin: 10px;
+}
+
+.swal-button {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    background: #272341;
+
+    .swal-button--confirm {
+        background-color: #2c5773;
+        cursor: pointer;
+    }
 }
 
 @media screen and (max-width: 2658px) {

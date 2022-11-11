@@ -53,7 +53,7 @@ window.onload = () => {
 function inputEmpty() {
     swal({
         title: "Oops!",
-        text: "You forgot a field :( please complete the whole form.",
+        text: "You forgot a field :( Please complete the whole form.",
         icon: "error",
         button: "Try Again"
     });
